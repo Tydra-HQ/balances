@@ -200,7 +200,9 @@ def w_margin_down(c):
     m1, m0 = c.met("ebitda_margin", -1), c.met("ebitda_margin", -2)
     if m1 is None or m0 is None or m1 - m0 > -1:
         return None
-    return 90, f"EBITDA margin dropped {pts(m1 - m0, 'en')}.", f"El margen EBITDA cayó {pts(m1 - m0, 'es')}."
+    drop = _num(m0 - m1, 1, 'en') + " points"
+    caida = _num(m0 - m1, 1, 'es') + " puntos"
+    return 90, f"EBITDA margin dropped {drop}, to {pct(m1, 'en')}.", f"El margen EBITDA cayó {caida}, hasta el {pct(m1, 'es')}."
 
 
 def w_net_down(c):
@@ -255,6 +257,8 @@ def w_net_cash_down(c):
     a, b = c.met("net_cash", -1), c.met("net_cash", -2)
     if a is None or b is None or a >= b:
         return None
+    if (b - a) < 0.05 * max(abs(b), abs(a), 1):
+        return None  # change too small to flag
     return (50, f"Net cash/(debt) worsened by {c.m(b - a, 'en')} in the year.",
             f"La posición financiera neta empeoró en {c.m(b - a, 'es')} en el año.")
 
