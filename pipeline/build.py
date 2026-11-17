@@ -193,7 +193,7 @@ def build_company(company, offline=False):
     if len(ends) < 2:
         raise RuntimeError("fewer than two years of data")
     _dump_concepts(company["ticker"], per_year[ends[-1]], per_year[ends[-2]])
-    lines = standardise([per_year[e] for e in ends])
+    lines = standardise([per_year[e] for e in ends], company.get("map"))
     n = len(ends)
     metrics = compute_metrics(lines, n)
     years = [fy_label(e) for e in ends]

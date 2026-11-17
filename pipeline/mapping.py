@@ -74,14 +74,25 @@ def _sum(d, names, absolute=True):
     return sum(vals) if vals else None
 
 
-def standardise(years):
-    """years: list (oldest -> newest) of {concept: value}. Returns {line: [values]}."""
+def standardise(years, overrides=None):
+    """years: list (oldest -> newest) of {concept: value}. Returns {line: [values]}.
+    overrides: {line: [concepts]} for one company (its own extension codes, see
+    companies.json "map"); the listed concepts are added up (absolute values).
+    When none of them is present in a year, the generic rule applies."""
     L = {}
+    overrides = overrides or {}
 
     def put(key, fn):
-        L[key] = [fn(y) for y in years]
+        names = overrides.get(key)
+        vals = []
+        for y in years:
+            v = _sum(y, names) if names else None
+            vals.append(v if v is not None else fn(y))
+        L[key] = vals
 
-    put("revenue", lambda y: _first(y, ["Revenue", "RevenueFromContractsWithCustomers", "RevenueAndOperatingIncome"]))
+    put("revenue", lambda y: _first(y, ["Revenue", "RevenueFromContractsWithCustomers", "RevenueAndOperatingIncome"])
+        if any(k in y for k in ("Revenue", "RevenueFromContractsWithCustomers", "RevenueAndOperatingIncome"))
+        else _sum(y, ["RevenueFromSaleOfGoods", "RevenueFromRenderingOfServices"]))
     put("cost_of_sales", lambda y: _first(y, ["CostOfSales"], True))
     put("gross_profit", lambda y: _first(y, ["GrossProfit"]) if "GrossProfit" in y else (
         y["Revenue"] - abs(y["CostOfSales"]) if "Revenue" in y and "CostOfSales" in y else None))
@@ -114,7 +125,7 @@ def standardise(years):
     put("inventories", lambda y: _first(y, ["InventoriesTotal", "Inventories", "CurrentInventoriesHeldForSale"], True))
     put("receivables", lambda y: _first(y, ["TradeAndOtherCurrentReceivables", "CurrentTradeReceivables",
                                             "TradeAndOtherReceivables"], True))
-    put("payables", lambda y: _first(y, ["TradeAndOtherCurrentPayables", "TradeAndOtherCurrentPayablesToTradeSuppliers",
+    put("payables", lambda y: _first(y, ["TradeAndOtherCurrentPayables", "TradeAndOtherCurrentPayablesToTradeSuppliers", "TradeAndOtherPayablesToTradeSuppliers",
                                          "CurrentTradePayables", "TradeAndOtherPayables"], True))
     put("cash", lambda y: _first(y, ["CashAndCashEquivalents"]))
     put("st_investments", lambda y: _first(y, ["ShorttermDepositsNotClassifiedAsCashEquivalents", "CurrentInvestments"], True))

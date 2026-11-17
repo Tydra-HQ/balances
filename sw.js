@@ -1,6 +1,6 @@
 // Offline support: the app shell is cached; report data is fetched fresh when online,
 // with the last copy used when offline.
-const VERSION = 'balances-v1';
+const VERSION = 'balances-v2';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', (e) => {
