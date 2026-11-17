@@ -8,7 +8,7 @@
   "latest": "FY2025",
   "revenue": 39864.0,
   "currency": "EUR",
-  "updated": "2026-11-17T22:32:49Z"
+  "updated": "2026-11-17T22:35:27Z"
  },
  {
   "ticker": "IBE",
@@ -19,7 +19,7 @@
   "latest": "FY2025",
   "revenue": 44076.0,
   "currency": "EUR",
-  "updated": "2026-11-17T22:32:55Z"
+  "updated": "2026-11-17T22:35:28Z"
  },
  {
   "ticker": "REP",
@@ -30,7 +30,7 @@
   "latest": "FY2025",
   "revenue": null,
   "currency": "EUR",
-  "updated": "2026-11-17T22:33:02Z"
+  "updated": "2026-11-17T22:35:29Z"
  },
  {
   "ticker": "TEF",
@@ -41,7 +41,7 @@
   "latest": "FY2025",
   "revenue": 35120.0,
   "currency": "EUR",
-  "updated": "2026-11-17T22:33:28Z"
+  "updated": "2026-11-17T22:35:30Z"
  },
  {
   "ticker": "AENA",
@@ -52,7 +52,7 @@
   "latest": "FY2025",
   "revenue": 6278.337,
   "currency": "EUR",
-  "updated": "2026-11-17T22:33:35Z"
+  "updated": "2026-11-17T22:35:31Z"
  },
  {
   "ticker": "VIS",
@@ -63,6 +63,6 @@
   "latest": "FY2025",
   "revenue": 1251.983,
   "currency": "EUR",
-  "updated": "2026-11-17T22:33:53Z"
+  "updated": "2026-11-17T22:35:32Z"
  }
 ]

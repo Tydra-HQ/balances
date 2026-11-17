@@ -1,0 +1,562 @@
+{
+"Assets": [
+92017.0,
+100502.0
+],
+"BasicEarningsLossPerShare": [
+-0.81,
+-0.06
+],
+"Cash": [
+5472.0,
+6905.0
+],
+"CashAndCashEquivalents": [
+6564.0,
+8062.0
+],
+"CashEquivalents": [
+1092.0,
+1157.0
+],
+"CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities": [
+2001.0,
+212.0
+],
+"CashFlowsFromUsedInFinancingActivities": [
+-6412.0,
+-4672.0
+],
+"CashFlowsFromUsedInFinancingActivitiesContinuingOperations": [
+-6325.0,
+-4391.0
+],
+"CashFlowsFromUsedInFinancingActivitiesDiscontinuedOperations": [
+-87.0,
+-281.0
+],
+"CashFlowsFromUsedInInvestingActivities": [
+-4590.0,
+-5223.0
+],
+"CashFlowsFromUsedInInvestingActivitiesContinuingOperations": [
+-4150.0,
+-4463.0
+],
+"CashFlowsFromUsedInInvestingActivitiesDiscontinuedOperations": [
+-440.0,
+-760.0
+],
+"CashFlowsFromUsedInOperatingActivities": [
+9722.0,
+10994.0
+],
+"CashFlowsFromUsedInOperatingActivitiesContinuingOperations": [
+9541.0,
+10302.0
+],
+"CashFlowsFromUsedInOperatingActivitiesDiscontinuedOperations": [
+181.0,
+692.0
+],
+"CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities": [
+323.0,
+189.0
+],
+"ComprehensiveIncome": [
+-2947.0,
+-911.0
+],
+"ComprehensiveIncomeAttributableToNoncontrollingInterests": [
+305.0,
+-247.0
+],
+"ComprehensiveIncomeAttributableToOwnersOfParent": [
+-3252.0,
+-664.0
+],
+"ComprehensiveIncomeFromContinuingOperations": [
+-2031.0,
+126.0
+],
+"ComprehensiveIncomeFromDiscontinuedOperations": [
+-916.0,
+-1037.0
+],
+"CurrentAssets": [
+22005.0,
+22369.0
+],
+"CurrentFinancialAssets": [
+870.0,
+1800.0
+],
+"CurrentFinancialLiabilities": [
+4219.0,
+5590.0
+],
+"CurrentLeaseLiabilities": [
+1938.0,
+2226.0
+],
+"CurrentLiabilities": [
+24837.0,
+25734.0
+],
+"CurrentProvisions": [
+1899.0,
+1665.0
+],
+"CurrentTaxAssetsCurrent": [
+867.0,
+970.0
+],
+"CurrentTaxLiabilitiesCurrent": [
+950.0,
+1614.0
+],
+"DeferredTaxAssets": [
+6012.0,
+6673.0
+],
+"DeferredTaxLiabilities": [
+2518.0,
+2905.0
+],
+"DepreciationAndAmortisationExpense": [
+7364.0,
+7613.0
+],
+"DividendsPaid": [
+1814.0,
+1838.0
+],
+"DividendsPaidClassifiedAsFinancingActivities": [
+1857.0,
+1887.0
+],
+"EffectOfExchangeRateChangesOnCashAndCashEquivalents": [
+-134.0,
+-191.0
+],
+"EmployeeBenefitsExpense": [
+7548.0,
+4852.0
+],
+"Equity": [
+17808.0,
+22749.0
+],
+"EquityAndLiabilities": [
+92017.0,
+100502.0
+],
+"EquityAttributableToOwnersOfParent": [
+14258.0,
+19347.0
+],
+"FinanceCosts": [
+2447.0,
+2392.0
+],
+"FinanceIncome": [
+902.0,
+820.0
+],
+"FinanceIncomeCost": [
+-1702.0,
+-1536.0
+],
+"GainsLossesOnCashFlowHedgesBeforeTax": [
+-674.0,
+953.0
+],
+"GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss": [
+-157.0,
+36.0
+],
+"GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax": [
+-2.0,
+-11.0
+],
+"Goodwill": [
+15796.0,
+16461.0
+],
+"IncomeTaxExpenseContinuingOperations": [
+365.0,
+617.0
+],
+"IncomeTaxRelatingToFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome": [
+null,
+-5.0
+],
+"IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome": [
+5.0,
+38.0
+],
+"IncomeTaxesPaidRefundClassifiedAsOperatingActivities": [
+402.0,
+231.0
+],
+"IncreaseDecreaseInCashAndCashEquivalents": [
+-1498.0,
+911.0
+],
+"IncreaseDecreaseThroughChangeInEquityOfSubsidiaries": [
+182.0,
+-1438.0
+],
+"IncreaseDecreaseThroughTransfersAndOtherChangesEquity": [
+-9.0,
+3.0
+],
+"IncreaseDecreaseThroughTreasuryShareTransactions": [
+-87.0,
+-56.0
+],
+"IntangibleAssetsOtherThanGoodwill": [
+9112.0,
+9875.0
+],
+"Inventories": [
+862.0,
+954.0
+],
+"InvestmentAccountedForUsingEquityMethod": [
+6753.0,
+8375.0
+],
+"LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale": [
+2889.0,
+33.0
+],
+"NetForeignExchangeGain": [
+null,
+2199.0
+],
+"NetForeignExchangeLoss": [
+null,
+1970.0
+],
+"NoncontrollingInterests": [
+3550.0,
+3402.0
+],
+"NoncurrentAssets": [
+70012.0,
+78133.0
+],
+"NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners": [
+3180.0,
+138.0
+],
+"NoncurrentFinancialLiabilities": [
+30120.0,
+33192.0
+],
+"NoncurrentLeaseLiabilities": [
+5644.0,
+6077.0
+],
+"NoncurrentLiabilities": [
+49372.0,
+52019.0
+],
+"NoncurrentProvisions": [
+7178.0,
+6152.0
+],
+"OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities": [
+1681.0,
+1033.0
+],
+"OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities": [
+1016.0,
+1319.0
+],
+"OtherComprehensiveIncome": [
+1205.0,
+-1120.0
+],
+"OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans": [
+6.0,
+129.0
+],
+"OtherComprehensiveIncomeNetOfTaxCashFlowHedges": [
+382.0,
+58.0
+],
+"OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation": [
+794.0,
+-1465.0
+],
+"OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome": [
+2.0,
+-6.0
+],
+"OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans": [
+1.0,
+91.0
+],
+"OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax": [
+1081.0,
+-1300.0
+],
+"OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax": [
+124.0,
+180.0
+],
+"OtherExpenseByNature": [
+8268.0,
+8634.0
+],
+"OtherIncome": [
+1531.0,
+1538.0
+],
+"PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities": [
+1950.0,
+1901.0
+],
+"ProceedsFromBorrowingsClassifiedAsFinancingActivities": [
+553.0,
+1117.0
+],
+"ProceedsFromIssueOfBondsNotesAndDebentures": [
+1889.0,
+1787.0
+],
+"ProfitLoss": [
+-4152.0,
+209.0
+],
+"ProfitLossAttributableToNoncontrollingInterests": [
+166.0,
+258.0
+],
+"ProfitLossAttributableToOwnersOfParent": [
+-4318.0,
+-49.0
+],
+"ProfitLossBeforeTax": [
+-1403.0,
+2589.0
+],
+"ProfitLossFromContinuingOperations": [
+-1768.0,
+1972.0
+],
+"ProfitLossFromContinuingOperationsAttributableToNoncontrollingInterests": [
+281.0,
+289.0
+],
+"ProfitLossFromContinuingOperationsAttributableToOrdinaryEquityHoldersOfParentEntity": [
+-2049.0,
+1683.0
+],
+"ProfitLossFromDiscontinuedOperations": [
+-2384.0,
+-1763.0
+],
+"ProfitLossFromDiscontinuedOperationsAttributableToNoncontrollingInterests": [
+-115.0,
+-31.0
+],
+"ProfitLossFromDiscontinuedOperationsAttributableToOrdinaryEquityHoldersOfParentEntity": [
+-2269.0,
+-1732.0
+],
+"ProfitLossFromOperatingActivities": [
+1319.0,
+4157.0
+],
+"PropertyPlantAndEquipment": [
+18158.0,
+21439.0
+],
+"RawMaterialsAndConsumablesUsed": [
+12152.0,
+11953.0
+],
+"ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax": [
+-1172.0,
+863.0
+],
+"ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax": [
+117.0,
+-110.0
+],
+"ReductionOfIssuedCapital": [
+0.0,
+0.0
+],
+"RepaymentsOfBondsNotesAndDebentures": [
+2932.0,
+998.0
+],
+"RepaymentsOfBorrowingsClassifiedAsFinancingActivities": [
+980.0,
+621.0
+],
+"Revenue": [
+35120.0,
+35671.0
+],
+"RightofuseAssets": [
+7441.0,
+7907.0
+],
+"ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossBeforeTax": [
+-9.0,
+-6.0
+],
+"ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax": [
+-9.0,
+-6.0
+],
+"ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax": [
+9.0,
+-101.0
+],
+"ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod": [
+-1020.0,
+-32.0
+],
+"tef:ActivosFinancierosYOtrosActivosNoCorrientes": [
+6740.0,
+7403.0
+],
+"tef:AjustesPorReclasificacionDeLosCostosDeCoberturaDeFlujosDeEfectivoAntesDeImpuestos": [
+9.0,
+10.0
+],
+"tef:AjustesPorReclasificacionRelativosAActivosFinancierosValoradosAlValorRazonableConCambiosEnOtroResultadoGlobalAntesDeImpuestos": [
+-5.0,
+0.0
+],
+"tef:AumentoDisminucionATravesDeValoresSubordinadosSinFecha": [
+-266.0,
+-249.0
+],
+"tef:CuentasAPagarYOtrosPasivosCorrientes": [
+12942.0,
+14606.0
+],
+"tef:CuentasAPagarYOtrosPasivosNoCorrientes": [
+3912.0,
+3693.0
+],
+"tef:CuentasPorCobrarYOtrosActivosCorrientes": [
+9662.0,
+10445.0
+],
+"tef:EfectivoReclasificadoAActivosMantenidosParaLaVenta": [
+84.0,
+-3.0
+],
+"tef:EfectoDeLosCambiosEnLosMetodosDeConsolidacionYOtrosSobreElEfectivoYEquivalentes": [
+0.0,
+0.0
+],
+"tef:EfectoImpositivoSobreGananciasRelativoAActivosFinancierosValoradosAlValorRazonableConCambiosEnOtroResultadoGlobal": [
+0.0,
+-5.0
+],
+"tef:EfectoImpositivoSobreLasGananciasPerdidasProcedentesDeCobertura": [
+-168.0,
+253.0
+],
+"tef:FlujosDeEfectivoDeLasOperaciones": [
+42065.0,
+42459.0
+],
+"tef:FlujosDeEfectivoUtilizadosEnOperaciones": [
+30953.0,
+31109.0
+],
+"tef:GananciasPerdidasEnLaValoracionDeActivosFinancierosAValorRazonableConCambiosEnOtroResultadoGlobalDelPeriodoAntesDeImpuestos": [
+233.0,
+81.0
+],
+"tef:GananciasPerdidasEnLaValoracionDeActivosFinancierosAValorRazonableConCambiosEnOtroResultadoGlobalDelPeriodoNetoDeImpuestos": [
+114.0,
+190.0
+],
+"tef:GananciasPerdidasPorCostosDeCoberturaDeFlujosDeEfectivoAntesDeImpuestos": [
+-109.0,
+168.0
+],
+"tef:GastoFinancieroNeto": [
+null,
+1789.0
+],
+"tef:ImpuestoALasGananciasRelacionadoConLosCostosDeCoberturaDeFlujosDeEfectivoIncluidosEnOtroResultadoIntegral": [
+-28.0,
+42.0
+],
+"tef:ImpuestoSobreLaRentaRelacionadoConLaReclasificacionDeGananciasPerdidasEnLaCoberturaDeFlujoDeEfectivo": [
+284.0,
+-221.0
+],
+"tef:ImpuestoSobreLaRentaRelacionadoConLaReclasificacionDeGananciasPerdidasSobreCostosDeCoberturaDeFlujosDeEfectivo": [
+-2.0,
+-3.0
+],
+"tef:ImpuestoSobreLaRentaRelativoALaParticipacionEnLasGananciasPerdidasReconocidasDirectamenteEnElPatrimonioDeAsociadasYOtros": [
+null,
+0.0
+],
+"tef:ImpuestoSobreLasGanaciasAjustesPorReclasificacionRelativosAActivosFinancierosValoradosAlValorRazonableConCambiosEnOtroResultadoGlobal": [
+1.0,
+0.0
+],
+"tef:ImpuestoSobreLasGananciasRelativoAGananciasPerdidasEnLaValoracionDeActivosFinancierosAValorRazonableConCambiosEnOtroResultadoGlobalDelPeriodo": [
+2.0,
+1.0
+],
+"tef:IngresosDeInversionesFinancierasNoIncluidosEnEquivalentesDeEfectivo": [
+null,
+1413.0
+],
+"tef:IngresosDePagosPorAccionesEnTesoreriaYOtrasActividadesDeLosAccionistas": [
+-362.0,
+-1301.0
+],
+"tef:IngresosDePagosPorColocacionesDeExcedentesDeEfectivoNoIncluidosEnEquivalentesDeEfectivo": [
+-108.0,
+79.0
+],
+"tef:OperacionesConOtrosTenedoresDeInstrumentosDePatrimonio": [
+-359.0,
+-346.0
+],
+"tef:OtrosResultadosIntegralesNetoDeImpuestosCostosDeCoberturaDeFlujosDeEfectivo": [
+-88.0,
+119.0
+],
+"tef:PagoDeInteresesYOtrosGastosFinancierosNetoDeDividendosRecibidos": [
+1169.0,
+817.0
+],
+"tef:PagosCobrosPorReduccionAmpliacionDeCapitalDeInteresesMinoritarios": [
+null,
+-57.0
+],
+"tef:PagosDeExplotacionEInversionesMaterialesEIntangiblesFinanciados": [
+144.0,
+184.0
+],
+"tef:PagosPorInversionesFinancierasNoIncluidasEnEquivalentesDeEfectivo": [
+null,
+1196.0
+],
+"tef:PagoscobrosPorReduccionampliacionDeCapitalDeInteresesMinoritarios": [
+-183.0,
+-57.0
+],
+"tef:ProductoDeCompraPropiedadPlantaYEquipoYActivosIntangiblesClasificadosComoActividadesDeInversion": [
+-5055.0,
+-4851.0
+]
+}

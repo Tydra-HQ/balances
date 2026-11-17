@@ -1,0 +1,414 @@
+{
+"AdjustmentsForDecreaseIncreaseInInventories": [
+-9.0,
+427.0
+],
+"AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables": [
+149.0,
+164.0
+],
+"AdjustmentsForDepreciationAndAmortisationExpense": [
+3270.0,
+3174.0
+],
+"AdjustmentsForFinanceCosts": [
+215.0,
+223.0
+],
+"AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss": [
+13.0,
+39.0
+],
+"AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables": [
+663.0,
+-392.0
+],
+"AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod": [
+102.0,
+99.0
+],
+"Assets": [
+35638.0,
+34714.0
+],
+"BasicEarningsLossPerShare": [
+1.996,
+1.884
+],
+"CashAndCashEquivalents": [
+5276.0,
+6382.0
+],
+"CashFlowsFromUsedInFinancingActivities": [
+-7075.0,
+-6607.0
+],
+"CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings": [
+-5.0,
+-8.0
+],
+"CashFlowsFromUsedInInvestingActivities": [
+-3215.0,
+-3288.0
+],
+"CashFlowsFromUsedInOperatingActivities": [
+9232.0,
+9288.0
+],
+"CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital": [
+10034.0,
+9486.0
+],
+"ComprehensiveIncome": [
+5901.0,
+5811.0
+],
+"ComprehensiveIncomeAttributableToNoncontrollingInterests": [
+0.0,
+11.0
+],
+"ComprehensiveIncomeAttributableToOwnersOfParent": [
+5901.0,
+5800.0
+],
+"CostOfSales": [
+16642.0,
+16288.0
+],
+"CurrentAssets": [
+15691.0,
+16356.0
+],
+"CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings": [
+2.0,
+7.0
+],
+"CurrentLeaseLiabilities": [
+1539.0,
+1542.0
+],
+"CurrentLiabilities": [
+10172.0,
+10187.0
+],
+"CurrentTaxAssetsCurrent": [
+197.0,
+326.0
+],
+"CurrentTaxLiabilitiesCurrent": [
+318.0,
+312.0
+],
+"DeferredTaxAssets": [
+750.0,
+800.0
+],
+"DeferredTaxLiabilities": [
+101.0,
+72.0
+],
+"DepreciationAndAmortisationExpense": [
+3270.0,
+3174.0
+],
+"DividendsPaidClassifiedAsFinancingActivities": [
+5235.0,
+4797.0
+],
+"DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners": [
+5454.0,
+2618.0
+],
+"DividendsRecognisedAsDistributionsToOwnersOfParent": [
+5235.0,
+4797.0
+],
+"EffectOfExchangeRateChangesOnCashAndCashEquivalents": [
+-48.0,
+-18.0
+],
+"Equity": [
+20395.0,
+19676.0
+],
+"EquityAndLiabilities": [
+35638.0,
+34714.0
+],
+"EquityAttributableToOwnersOfParent": [
+20395.0,
+19676.0
+],
+"FinanceIncomeCost": [
+-80.0,
+-77.0
+],
+"FinancialInstrumentsDesignatedAsHedgingInstrumentsAtFairValue": [
+null,
+25.0
+],
+"GainsLossesOnCashFlowHedgesBeforeTax": [
+-14.0,
+6.0
+],
+"GainsLossesOnExchangeDifferencesOnTranslationBeforeTax": [
+-305.0,
+-72.0
+],
+"Goodwill": [
+197.0,
+196.0
+],
+"GrossProfit": [
+23222.0,
+22343.0
+],
+"HedgingInstrumentAssets": [
+8.0,
+25.0
+],
+"IncomeTaxExpenseContinuingOperations": [
+1800.0,
+1700.0
+],
+"IncomeTaxesPaidRefundClassifiedAsOperatingActivities": [
+1585.0,
+1539.0
+],
+"IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges": [
+-1058.0,
+-607.0
+],
+"IncreaseDecreaseInWorkingCapital": [
+-803.0,
+-198.0
+],
+"IncreaseDecreaseThroughAcquisitionOfSubsidiary": [
+null,
+-37.0
+],
+"IncreaseDecreaseThroughTransactionsWithOwners": [
+-5176.0,
+-4808.0
+],
+"InventoriesTotal": [
+3249.0,
+3321.0
+],
+"InvestmentProperty": [
+6.0,
+9.0
+],
+"LongtermBorrowings": [
+0.0,
+0.0
+],
+"NoncontrollingInterests": [
+0.0,
+0.0
+],
+"NoncurrentAssets": [
+19947.0,
+18358.0
+],
+"NoncurrentLeaseLiabilities": [
+4394.0,
+4180.0
+],
+"NoncurrentLiabilities": [
+5071.0,
+4851.0
+],
+"NoncurrentProvisions": [
+345.0,
+348.0
+],
+"OperatingExpense": [
+11878.0,
+11555.0
+],
+"OtherAdjustmentsToReconcileProfitLoss": [
+204.0,
+111.0
+],
+"OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities": [
+6.0,
+4.0
+],
+"OtherComprehensiveIncome": [
+-319.0,
+-66.0
+],
+"OtherCurrentAssets": [
+112.0,
+94.0
+],
+"OtherCurrentFinancialLiabilities": [
+43.0,
+48.0
+],
+"OtherGainsLosses": [
+-77.0,
+-60.0
+],
+"OtherIntangibleAssets": [
+1643.0,
+1411.0
+],
+"OtherNoncurrentAssets": [
+203.0,
+217.0
+],
+"OtherNoncurrentNonfinancialLiabilities": [
+231.0,
+251.0
+],
+"ProfitLoss": [
+6220.0,
+5877.0
+],
+"ProfitLossAttributableToNoncontrollingInterests": [
+0.0,
+11.0
+],
+"ProfitLossAttributableToOwnersOfParent": [
+6220.0,
+5866.0
+],
+"ProfitLossBeforeTax": [
+8020.0,
+7577.0
+],
+"ProfitLossFromOperatingActivities": [
+7997.0,
+7554.0
+],
+"PropertyPlantAndEquipment": [
+11135.0,
+10005.0
+],
+"PurchaseOfFinancialInstrumentsClassifiedAsInvestingActivities": [
+16.0,
+14.0
+],
+"PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities": [
+519.0,
+465.0
+],
+"PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities": [
+2193.0,
+2207.0
+],
+"RepaymentsOfNoncurrentBorrowings": [
+null,
+0.0
+],
+"Revenue": [
+39864.0,
+38632.0
+],
+"RightofuseAssets": [
+5542.0,
+5269.0
+],
+"ShareOfProfitLossOfJointVenturesAccountedForUsingEquityMethod": [
+102.0,
+99.0
+],
+"ShorttermDepositsNotClassifiedAsCashEquivalents": [
+5684.0,
+5120.0
+],
+"TradeAndOtherCurrentPayables": [
+8269.0,
+8278.0
+],
+"TradeAndOtherCurrentReceivables": [
+1166.0,
+1088.0
+],
+"itx:AltaDePagosBasadosEnInstrumentosDePatrimonioNeto": [
+113.0,
+85.0
+],
+"itx:BeneficioPorCoberturasDeFlujoDeEfectivoReconocidasDirectamenteEnElPatrimonioNeto": [
+0.0,
+7.0
+],
+"itx:BeneficioPorCoberturasDeFlujoDeEfectivoTransferidasALaCuentaDePerdidasYGanancias": [
+0.0,
+1.0
+],
+"itx:CobrosRelacionadosConInversionesEnOtroInmovilizadoFinanciero": [
+60.0,
+55.0
+],
+"itx:CobrosRelacionadosConInversionesEnOtrosActivos": [
+13.0,
+61.0
+],
+"itx:EfectoImpositivoSobreOtroResultadoGlobalReconocidoDirectamenteEnElPatrimonioNeto": [
+-3.0,
+2.0
+],
+"itx:EfectoImpositivoSobreOtroResultadoGlobalTransferidoALaCuentaDePerdidasYGanancias": [
+-2.0,
+0.0
+],
+"itx:EjercicioDePagosBasadosEnInstrumentosDePatrimonioNeto": [
+-54.0,
+-59.0
+],
+"itx:GananciasPerdidasDerivadasDeLaPosicionMonetariaNetaEIncrementoDecrementoPorOtrosCambiosPatrimonioNeto": [
+-6.0,
+1.0
+],
+"itx:InversionesFinancieras": [
+471.0,
+450.0
+],
+"itx:OtroResultadoGlobalReconocidoDirectamenteEnElPatrimonioNeto": [
+-314.0,
+-67.0
+],
+"itx:OtroResultadoGlobalTransferidoALaCuentaDePerdidasYGanancias": [
+-5.0,
+1.0
+],
+"itx:PagosPorArrendamientoRentaFija": [
+1834.0,
+1802.0
+],
+"itx:PagosRelacionadosConInversionesEnOtrosActivos": [
+10.0,
+10.0
+],
+"itx:PerdidasPorCoberturasDeFlujoDeEfectivoReconocidasDirectamenteEnElPatrimonioNeto": [
+12.0,
+0.0
+],
+"itx:PerdidasPorCoberturasDeFlujoDeEfectivoTransferidasALaCuentaDePerdidasYGanancias": [
+7.0,
+0.0
+],
+"itx:RepartoDeResultados": [
+0.0,
+0.0
+],
+"itx:RepartoDividendos": [
+0.0,
+0.0
+],
+"itx:ResultadoOperativoEbitda": [
+11267.0,
+10728.0
+],
+"itx:Traspasos": [
+0.0,
+0.0
+],
+"itx:VariacionesDeInversionesFinancierasTemporales": [
+545.0,
+705.0
+]
+}
