@@ -192,6 +192,7 @@ def build_company(company, offline=False):
     ends = ends[-YEARS_WANTED:]
     if len(ends) < 2:
         raise RuntimeError("fewer than two years of data")
+    _dump_concepts(company["ticker"], per_year[ends[-1]], per_year[ends[-2]])
     lines = standardise([per_year[e] for e in ends])
     n = len(ends)
     metrics = compute_metrics(lines, n)
@@ -207,6 +208,17 @@ def build_company(company, offline=False):
     }
     data["messages"] = build_messages(data)
     return data
+
+
+def _dump_concepts(ticker, cur, prev):
+    """Diagnostic: every consolidated concept the company tagged in its latest two years.
+    Used to extend the mapping when a line comes out empty."""
+    os.makedirs(os.path.join(HERE, "concepts"), exist_ok=True)
+    rows = {k: [round(cur.get(k), 3) if isinstance(cur.get(k), float) else cur.get(k),
+                round(prev.get(k), 3) if isinstance(prev.get(k), float) else prev.get(k)]
+            for k in sorted(set(cur) | set(prev)) if not k.startswith("_")}
+    with open(os.path.join(HERE, "concepts", f"{ticker}.json"), "w", encoding="utf-8") as fh:
+        json.dump(rows, fh, ensure_ascii=False, indent=0)
 
 
 def _round(x):

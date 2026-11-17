@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "balances-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data
+          git add data pipeline/concepts
           if git diff --cached --quiet; then
             echo "No data changes"
           else
