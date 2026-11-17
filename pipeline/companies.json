@@ -1,0 +1,8 @@
+[
+  {"ticker": "ITX",  "name": "Inditex",    "legal": "Industria de Diseño Textil, S.A.", "lei": "549300TTCXZOGZM2EY83", "search": "industria de dise", "sector": "retail"},
+  {"ticker": "IBE",  "name": "Iberdrola",  "legal": "Iberdrola, S.A.",                  "lei": "5QK37QC7NWOJ8D7WVQ45", "search": "iberdrola",         "sector": "util"},
+  {"ticker": "REP",  "name": "Repsol",     "legal": "Repsol, S.A.",                     "lei": "BSYCX13Y0NOTV14V9N85", "search": "repsol",            "sector": "energy"},
+  {"ticker": "TEF",  "name": "Telefónica", "legal": "Telefónica, S.A.",                 "lei": "549300EEJH4FEPDBBR25", "search": "telefonica sa",     "sector": "tel"},
+  {"ticker": "AENA", "name": "Aena",       "legal": "Aena S.M.E., S.A.",                "lei": "959800R7QMXKF0NFMT29", "search": "aena",              "sector": "airport"},
+  {"ticker": "VIS",  "name": "Viscofan",   "legal": "Viscofan, S.A.",                   "lei": "95980020140005684765", "search": "viscofan",          "sector": "food"}
+]

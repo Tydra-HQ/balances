@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Balances · management reports from official filings</title>
+<meta name="description" content="Management reports for Spanish listed companies, built automatically from their official annual filings.">
+<meta name="theme-color" content="#1F1636">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/" aria-label="Balances home">
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="24" height="24"><rect x="2" y="12" width="5" height="10" rx="2" fill="#F2545B"/><rect x="9.5" y="7" width="5" height="15" rx="2" fill="#F5A524"/><rect x="17" y="2" width="5" height="20" rx="2" fill="#12A594"/></svg>
+      </span>
+      <span class="brand-txt"><b>Balances</b><small id="tagline"></small></span>
+    </a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="es">ES</button>
+    </div>
+  </div>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<div id="toast" class="toast" role="status" hidden></div>
+<noscript><p class="wrap">This app needs JavaScript.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>

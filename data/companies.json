@@ -1,0 +1,44 @@
+[
+ {
+  "ticker": "ITX",
+  "name": "Inditex",
+  "legal": "Industria de Diseño Textil, S.A.",
+  "sector": "retail",
+  "available": false
+ },
+ {
+  "ticker": "IBE",
+  "name": "Iberdrola",
+  "legal": "Iberdrola, S.A.",
+  "sector": "util",
+  "available": false
+ },
+ {
+  "ticker": "REP",
+  "name": "Repsol",
+  "legal": "Repsol, S.A.",
+  "sector": "energy",
+  "available": false
+ },
+ {
+  "ticker": "TEF",
+  "name": "Telefónica",
+  "legal": "Telefónica, S.A.",
+  "sector": "tel",
+  "available": false
+ },
+ {
+  "ticker": "AENA",
+  "name": "Aena",
+  "legal": "Aena S.M.E., S.A.",
+  "sector": "airport",
+  "available": false
+ },
+ {
+  "ticker": "VIS",
+  "name": "Viscofan",
+  "legal": "Viscofan, S.A.",
+  "sector": "food",
+  "available": false
+ }
+]
